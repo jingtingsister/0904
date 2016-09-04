@@ -1,0 +1,73 @@
+@import '../lib/_reset.scss';
+
+.common {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+// .color {
+//     div:nth-child(1){
+//         @extend .common ;
+//         background-color: darken(purple, 30%);
+//     }
+//     div:nth-child(2){
+//         @extend .common ;
+//         background-color: darken(purple, 20%);
+//     }
+//     div:nth-child(3){
+//         @extend .common ;
+//         background-color: darken(purple, 10%);
+//     }
+//     div:nth-child(4){
+//         @extend .common ;
+//         background-color: purple;
+//     }
+//     div:nth-child(5){
+//         @extend .common ;
+//         background-color: lighten(purple,10%);
+//     }
+//     div:nth-child(6){
+//         @extend .common ;
+//         background-color: lighten(purple,20%);
+//     }
+//     div:nth-child(7){
+//         @extend .common ;
+//         background-color: lighten(purple,30%);
+//     }
+// }
+@mixin color-pattern ($color){
+    div:nth-child(1){
+        @extend .common ;
+        background-color: darken($color, 30%);
+    }
+    div:nth-child(2){
+        @extend .common ;
+        background-color: darken($color, 20%);
+    }
+    div:nth-child(3){
+        @extend .common ;
+        background-color: darken($color, 10%);
+    }
+    div:nth-child(4){
+        @extend .common ;
+        background-color:$color;
+    }
+    div:nth-child(5){
+        @extend .common ;
+        background-color: lighten($color,10%);
+    }
+    div:nth-child(6){
+        @extend .common ;
+        background-color: lighten($color,20%);
+    }
+    div:nth-child(7){
+        @extend .common ;
+        background-color: lighten($color,30%);
+    }
+}
+    .color1{
+        @include color-pattern(red);
+    }
+    .color{
+        @include color-pattern(purple);
+    }

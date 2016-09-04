@@ -1,0 +1,74 @@
+@import '../lib/_reset.scss';
+.main-view {
+    background: url('../../img/city-wallpaper-11.jpg') 50% 50% no-repeat;
+    width: 100vw;
+    height: 100vh;
+    .mask {
+        background: rgba(0,0,0,.5);
+        width: 100vw;
+        height: 100vh;
+
+    }
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    padding: 10px;
+    height: 40px;
+}
+.main-left {
+    width: 35%;
+    font-style: OpenSans-Bold;
+    color: #d3ab5e;
+    font-size: 36px;
+    // padding: 10px;
+
+}
+.main-right {
+    width: 65%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    // padding: 20px;
+
+    div {
+        font-style: OpenSans;
+        color:#ffffff;
+        font-size: 20px;
+        transition: all .3s;
+        padding: 10px;
+        &:hover {
+            box-shadow: 0 5px 0 0 #d3ab5e;
+            background-color: rgba(0,0,0,.05);
+        }
+
+    }
+}
+
+
+/*@import '../lib/_reset.scss';
+section {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #e6e6e6;
+    align-items: center;
+    .main {
+        background-color: red;
+        flex: 1;
+    }
+}
+@media screen and (max-width: 480px) {
+    section {
+        .main {
+            flex: none;
+            width: 50%;
+            div {
+                background: white;
+                margin: 20px;
+            }
+        }
+    }
+}
+*/

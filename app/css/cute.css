@@ -1,0 +1,127 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+section {
+  position: absolute; }
+
+body {
+  margin-left: 50px;
+  margin-top: 50px; }
+
+.greenbody {
+  background: #BBFF66;
+  border-radius: 40%;
+  width: 118px;
+  height: 140px; }
+
+.left-eye {
+  background: #000000;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin-left: 23%;
+  margin-top: 33%; }
+
+.right-eye {
+  background: #000000;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin-left: 32%;
+  margin-top: 33%; }
+
+.top-mouth {
+  background: #FFFF00;
+  border-radius: 50% / 100% 100% 0 0;
+  width: 35px;
+  height: 12px;
+  display: inline-block;
+  margin-left: 34%;
+  border-bottom: solid 2px #EEEE00; }
+
+.bottom-mouth {
+  background: #FFFF00;
+  border-radius: 50% / 100% 100% 0 0;
+  transform: rotate(180deg);
+  width: 35px;
+  height: 10px;
+  display: inline-block;
+  margin-left: 34%;
+  margin-top: -6px;
+  margin-bottom: 7px; }
+
+.whitebody {
+  background: #FFFFFF;
+  border-radius: 85% / 100% 100% 0 0;
+  width: 77px;
+  height: 60px;
+  margin-left: 17%;
+  display: inline-block; }
+
+.left-hand {
+  background: #BBFF66;
+  border-radius: 100% / 100% 100% 0 0;
+  width: 23px;
+  height: 42px;
+  transform: rotate(125deg);
+  margin-top: -61px;
+  margin-left: 21%;
+  transition: .3s ease-in-out; }
+
+.right-hand {
+  background: #BBFF66;
+  border-radius: 100% / 100% 100% 0 0;
+  width: 23px;
+  height: 42px;
+  transform: rotate(-125deg);
+  margin-top: -42px;
+  margin-left: 58%;
+  transition: .3s ease-in-out; }
+
+.common, .left-foot div:nth-child(1), .left-foot div:nth-child(2), .left-foot div:nth-child(3), .right-foot div:nth-child(1), .right-foot div:nth-child(2), .right-foot div:nth-child(3) {
+  width: 10px;
+  background: #FFEE99;
+  display: inline-block;
+  border-radius: 100% / 100% 100% 0 0;
+  transform: rotate(180deg);
+  margin: -2px; }
+
+.left-foot div:nth-child(1) {
+  height: 15px; }
+
+.left-foot div:nth-child(2) {
+  height: 15px; }
+
+.left-foot div:nth-child(3) {
+  height: 15px; }
+
+.left-foot {
+  margin-left: 18%;
+  margin-top: -11%; }
+
+.right-foot div:nth-child(1) {
+  height: 15px; }
+
+.right-foot div:nth-child(2) {
+  height: 15px; }
+
+.right-foot div:nth-child(3) {
+  height: 15px; }
+
+.right-foot {
+  margin-left: 58%;
+  margin-top: -14%; }
+
+.greenbody:hover .left-hand {
+  transform: rotate(90deg); }
+
+.greenbody:hover .right-hand {
+  transform: rotate(-90deg); }
+
+/*foot,hand rotate*/
