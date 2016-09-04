@@ -1,4 +1,9 @@
 @import '../lib/_reset.scss';
+@import '../varible/_varible.scss';
+@import '../mixin/_color.scss';
+
+
+
 .main-view {
     background: url('../../img/city-wallpaper-11.jpg') 50% 50% no-repeat;
     width: 100vw;
