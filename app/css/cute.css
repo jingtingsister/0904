@@ -43,7 +43,10 @@ body {
   height: 12px;
   display: inline-block;
   margin-left: 34%;
-  border-bottom: solid 2px #EEEE00; }
+  border-bottom: solid 2px #EEEE00;
+  position: relative;
+  top: 5px;
+ }
 
 .bottom-mouth {
   background: #FFFF00;
@@ -54,13 +57,15 @@ body {
   display: inline-block;
   margin-left: 34%;
   margin-top: -6px;
-  margin-bottom: 7px; }
+  margin-bottom: 7px;
+
+ }
 
 .whitebody {
   background: #FFFFFF;
   border-radius: 85% / 100% 100% 0 0;
   width: 77px;
-  height: 60px;
+  height: 50px;
   margin-left: 17%;
   display: inline-block; }
 
@@ -90,7 +95,7 @@ body {
   display: inline-block;
   border-radius: 100% / 100% 100% 0 0;
   transform: rotate(180deg);
-  margin: -2px; }
+  margin: -3px; }
 
 .left-foot div:nth-child(1) {
   height: 15px; }
@@ -102,8 +107,8 @@ body {
   height: 15px; }
 
 .left-foot {
-  margin-left: 18%;
-  margin-top: -11%; }
+  margin-left: 20%;
+  margin-top: -14%; }
 
 .right-foot div:nth-child(1) {
   height: 15px; }
@@ -115,8 +120,8 @@ body {
   height: 15px; }
 
 .right-foot {
-  margin-left: 58%;
-  margin-top: -14%; }
+  margin-left: 60%;
+  margin-top: -19%; }
 
 .greenbody:hover .left-hand {
   transform: rotate(90deg); }
